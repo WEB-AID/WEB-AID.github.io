@@ -280,8 +280,8 @@
 
 @font-face {
     font-family: 'TT-lakes-bold';
-    src: url('/TT-lake-font/TTLakes-bold.eot');
-    src: local('TT-lakes-bold'), url('/TT-lake-font/TTLakes-bold.woff') format('woff');
+    src: url('/TT-lake-font/TTLakes-Bold.eot');
+    src: local('TT-lakes-bold'), url('/TT-lake-font/TTLakes-Bold.woff') format('woff');
     font-weight: bold;
     font-style: bold;
 }
