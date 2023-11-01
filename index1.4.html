@@ -12,16 +12,16 @@
     <div class="sidemenu-layout">
         <div class="sidemenu-block">
             <div class="sidemenu-header">
-                <nav class="sidemenu-header-menu">
-                    <button type="button" class="sidemenu-header__hide-button button"></button>
+                <div class="sidemenu-header-menu">
+                    <button type="button" class="button button--hide"></button>
                     <img src="/images/logo.svg" class="sidemenu-header__logo" alt="">
-                    <button type="button" class="sidemenu-header__search-button button"></button>
-                </nav>
+                    <button type="button" class="button button--search"></button>
+                </div>
             </div>
             <div class="sidemenu-content">
                 <nav class="sidemenu-content-menu">
                     <ul>
-                        <li class="active"><a href="#1">Ремонт техники</a></li>
+                        <li class="sidemenu-content-menu__navlink--active"><a href="#1">Ремонт техники</a></li>
                         <li><a href="#2">Услуги и сервисы</a></li>
                         <li><a href="#3">Корпроративным клиентам</a></li>
                         <li><a href="#4">Продавцам техники</a></li>
@@ -33,26 +33,30 @@
                 </nav>
             </div>
             <div class="sidemenu-footer">
-                <nav class="sidemenu-footer-menu">
-                    <button type="button" class="sidemenu-footer__phone-button button"></button>
-                    <button type="button" class="sidemenu-footer__chat-button button"></button>
-                    <button type="button" class="sidemenu-footer__account-button button"></button>
-                </nav>
+                <div class="sidemenu-footer-menu">
+                    <button type="button" class=" button button--phone"></button>
+                    <button type="button" class=" button button--chat"></button>
+                    <button type="button" class=" button button--account"></button>
+                </div>
                 <address>
                     <div class="sidemenu-footer-info">
-                        <p><span class="sidemenu-footer-email">mail@cps.com</span></p>
-                        <p><span class="sidemenu-footer-phone">8 800 890 8900</span></p>
+                        <p><a class="sidemenu-footer-info__email" href="#m">mail@cps.com</a></p>
+                        <p><a class="sidemenu-footer-info__phone" href="#p">8 800 890 8900</a></p>
                     </div>
                 </address>
                 <div class="sidemenu-language-buttons">
-                    <button type="button" class="sidemenu-footer__lang-button">RU</button>
-                    <button type="button" class="sidemenu-footer__lang-button">EN</button>
-                    <button type="button" class="sidemenu-footer__lang-button">CH</button>
+                    <input type="radio" id="btn-ru" name="pagelang" checked>
+                    <input type="radio" id="btn-en" name="pagelang">
+                    <input type="radio" id="btn-ch" name="pagelang">
+                    <ul>
+                        <li><label for="btn-ru">RU</label></li>
+                        <li><label for="btn-en">EN</label></li>
+                        <li><label for="btn-ch">CH</label></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
