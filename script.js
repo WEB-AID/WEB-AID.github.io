@@ -7,9 +7,8 @@ const swiper = new Swiper('.swiper', {
 });
 
 if (window.innerWidth >= 768) {
-    swiper.destroy(true, true),
-        swiper.update()
-
+    swiper.destroy(true, true);
+    swiper.update(); //Не работает обновление стилей и отвязка их от Свайпера
 }
 
 let brandsButton = document.querySelector('.brands-block__button');
