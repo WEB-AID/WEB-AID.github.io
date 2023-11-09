@@ -72,9 +72,25 @@ body {
 }
 
 .swiper-slide__link {
-    width: 40px;
-    height: 40px;
     margin-right: 16px;
+}
+
+.swiper-slide__link-border {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #FF3E79;
+}
+
+.swiper-slide__link-arrow {
+    height: 8px;
+    width: 8px;
+    margin-top: 14px;
+    margin-left: 12px;
+    border-right: 2px solid #FF3E79;
+    border-top: 2px solid #FF3E79;
+    transform: rotate(45deg);
 }
 
 .swiper-slide__link:hover {
